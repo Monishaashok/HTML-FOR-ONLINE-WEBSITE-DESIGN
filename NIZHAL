@@ -1,0 +1,102 @@
+""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nizhal - Bracelets & Earrings</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            margin: 2em auto;
+            max-width: 800px;
+            padding: 0 1em;
+        }
+        section h2 {
+            color: #333;
+            margin-bottom: 1em;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5em;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-right: 1px solid #eee;
+        }
+        .product p {
+            margin: 0;
+            padding: 1em;
+            font-size: 1.1em;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nizhal Collections</h1>
+        <p>Exclusive Handmade Bracelets & Earrings</p>
+    </header>
+
+    <section id="bracelets">
+        <h2>Bracelets</h2>
+        <div class="product">
+            <img src="images/bracelet1.jpg" alt="Beaded Bracelet">
+            <p>Beaded Bracelet - Elegant and stylish, perfect for any occasion.</p>
+        </div>
+        <div class="product">
+            <img src="images/bracelet2.jpg" alt="Multi-color Bracelet">
+            <p>Multi-color Bracelet - Vibrant beads for a bold statement.</p>
+        </div>
+    </section>
+
+    <section id="earrings">
+        <h2>Earrings</h2>
+        <div class="product">
+            <img src="images/earring1.jpg" alt="Pearl Earrings">
+            <p>Pearl Earrings - Classic and timeless elegance.</p>
+        </div>
+        <div class="product">
+            <img src="images/earring2.jpg" alt="Hoop Earrings">
+            <p>Hoop Earrings - Stylish and modern design.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nizhal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+""
